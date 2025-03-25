@@ -119,3 +119,9 @@ document.body.innerHTML +=
   '</p>';
 
   */
+document.body.innerHTML +=
+  '<p> Šířka stránky je: ' + window.innerWidth + '</p>';
+document.body.innerHTML +=
+  '<p> Výška stránky je: ' + window.innerHeight + '</p>';
+document.body.innerHTML += '<p> Šířka ? je: ' + window.outerWidth + '</p>';
+document.body.innerHTML += '<p> Výška ? je: ' + window.outerHeight + '</p>';
